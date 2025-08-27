@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veo3 Prompt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Veo3 Prompt Generator</h1>
+    
+    <textarea id="promptInput" placeholder="Tulis ide prompt di sini..."></textarea>
+    <div style="margin-top:10px;">
+      <button onclick="generatePrompt()">Generate Prompt</button>
+      <button onclick="exportJSON()">Export JSON</button>
+      <button onclick="clearAll()">Clear</button>
+    </div>
+
+    <h2>Hasil:</h2>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
